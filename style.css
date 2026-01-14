@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    color: aliceblue;
+    background-color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+    background-color: black;
+    height: 50px;
+    
+
+}
+.left h2{
+    color: aliceblue;
+    font-size: 30px;
+    }
+nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    color:white ;
+    text-decoration: none;
+    
+}
+.p1{
+    display: flex;
+    background-image:linear-gradient(rgba(205, 146, 70,0.5),rgba(9, 53, 53,0.7)) ,url("https://images.pexels.com/photos/585752/pexels-photo-585752.jpeg");
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+   }
+   .p1 h1{
+    font-size: 48px;
+    letter-spacing: 2px;
+    color:rgb(205, 146, 70);
+    text-shadow: 2px 2px 0 white;
+   }
+   .p1 p{
+    margin: 12px 0;
+    font-size: 20px;
+    color:rgb(72, 46, 3);
+}
+   .p1 ul li{
+    list-style: none;
+    text-align: center;
+    color: rgb(194,229,229);
+    align-items: center;
+   }
+
+.b1{
+    padding: 12px 30px;
+    font-size: 14px;
+    display: inline-block;
+    background-color: rgb(128, 111, 32);
+    color: white;
+    border-radius: 25px;
+    width: 50%;
+    
+}
+.b1:hover{
+    scale: 1.3;
+}
+.about{
+    padding: 80px 10%;
+    background-color:rgb(237, 235, 235);
+}
+.heading h2{
+    font-size: 14px;
+}
+body{
+    background-color:rgb(237, 235, 235) ;
+}
+.about h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 50px;
+    color: rgb(39, 137, 137);
+
+}
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.about-text{
+    flex: 1;
+    font-size: 16px;
+    line-height: 1.8;
+    color: rgb(39, 137, 137);
+}
+.about-image{
+    flex: 1;
+    text-align: center;
+}
+.about-image img{
+    width: 260px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.skills{
+    padding: 80px 10%;
+    justify-content: center;
+    
+}
+#skill{
+    width: fit-content;
+
+}
+.outerlayer{
+    background-color: white;
+    height: 20px;
+    border-radius: 40px;
+    
+
+}
+
+.innerlayer{
+    height: 20px;
+    background-color: rgb(39, 137, 137);
+    border-radius: 20px;
+    
+    
+} 
+p{
+    color:rgb(39, 137, 137) ;
+    padding: 10px;
+}
+.html {
+    width: 90%;
+}
+.css {
+    width: 85%;
+}
+.js {
+    width: 65%;
+}
+.responsive {
+    width: 80%;
+}
+body{
+    background-color:rgb(237, 235, 235) ;
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(39, 137, 137);
+    font-size: 32px;
+}
+.card{
+    background:white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: left;
+    color: rgb(39, 137, 137);
+    
+    
+
+}
+.services{
+    padding: 80px 10%;
+
+}
+.service-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.services h2 {
+    font-size: 32px;
+}
+.card p{
+    font-size: 15px;
+    line-height: 1.6;
+}
+.portfolio{
+    padding: 80px 10%;
+    text-align: center;
+}
+.portfolio h2{
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: rgb(39, 137, 137);
+    
+}
+
+.portfolio-container{
+
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.portfolio-card{
+    background-color: white;
+    width: 250px;
+    border-radius: 12px;
+   padding: 25px;
+     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+     
+}
+.portfolio-card img{
+width: 100%;
+height: 120px;
+object-fit: cover;
+}
+
+.portfolio-card  p{
+    
+    font-size: 15px;
+    line-height: 1.6;
+    color: rgb(39, 137, 137);
+    text-align: left;
+    
+    
+
+}
+.portfolio-card h3{
+    text-align: left;
+    font-size: medium;
+    color: rgb(39, 137, 137);
+}
+.testimonials{
+    padding: 60px 10%;
+    text-align: center;
+
+}
+.testimonials h2{
+    font-size: 32px;
+}
+.card{
+    background-color: white;
+    width: 60%;
+    margin: 15px auto;
+    padding: 15px;
+    border-left: 4px solid rgb(39, 137, 137);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 6px;
+}
+.contact{
+    padding: 60px 10%;
+}
+.contact h2{
+    font-size: 32px;
+}
+form{
+    max-width: 400px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+input, textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+button{
+    
+    padding: 10px ;
+    background-color: rgb(39, 137, 137);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer a{
+    color: rgb(39, 137, 137);
+    text-decoration: none;
+    margin: 0 5px;
+}
